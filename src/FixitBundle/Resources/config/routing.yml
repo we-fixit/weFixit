@@ -1,0 +1,12 @@
+fixit_homepage:
+    path:     /home
+    defaults: { _controller: FixitBundle:Default:index }
+contacter:
+    path:     /contact
+    defaults: { _controller: FixitBundle:Fixit:cont }
+forumm:
+    path:     /f3
+    defaults: { _controller: FixitBundle:Fixit:forum }
+ap:
+    path:     /abt
+    defaults: { _controller: FixitBundle:Fixit:about}
